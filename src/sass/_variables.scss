@@ -16,7 +16,7 @@ $theme-colors: (
 );
 
 $spacer: 1rem;
-$spacers: (
+$awe-spacers: (
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer,
@@ -28,7 +28,6 @@ $spacers: (
   'awe-128':  $spacer * 8,
   'awe-160':  $spacer * 10,
 );
-$enable-negative-margins: true;
 
 $font-sizes: (0, 18, 40, 56);
 
