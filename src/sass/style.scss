@@ -1,1 +1,52 @@
-@import 'bootstrap';
+@import "bootstrap";
+
+@import "utils";
+
+.bg-section-index {
+  background: rgba(243, 243, 243, 1);
+
+  @media screen and (min-width: 992px) {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 20%,
+      20%,
+      rgba(243, 243, 243, 1) 80%,
+      rgba(0, 0, 0, 0) 80%
+    );
+  }
+}
+
+.bg-gradient-label-index {
+  background: linear-gradient(
+    0deg,
+    rgba(63, 137, 178, 0.15) 50%,
+    rgba(0, 0, 0, 0) 50%
+  ) !important;
+}
+
+.bio-area {
+  background-image: url("../image/logo-outline.svg");
+  background-repeat: no-repeat;
+  background-position-x: -150px;
+
+  @media screen and (min-width: 768px) {
+    background-position-x: 32px;
+  }
+}
+
+.text-area {
+  background-image: url("../image/quote.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 32px;
+}
+
+.shadow-custom {
+  &.logo-index {
+    box-shadow: -12px 12px #e7eff3;
+  }
+}
+
+.fw-black {
+  font-weight: 900 !important;
+}

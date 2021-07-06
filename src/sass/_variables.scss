@@ -1,0 +1,35 @@
+$brand-first:     #3f89b2;
+$brand-second:    #df8877;
+$brand-third:     #2d6280;
+
+$gray-first:      #4f4f4f;
+$gray-second:     #828282;
+$gray-third:      #f2f2f2;
+
+$theme-colors: (
+  'brand-first':    $brand-first,
+  'brand-second':   $brand-second,
+  'brand-third':    $brand-third,
+  'gray-first':     $gray-first,
+  'gray-second':    $gray-second,
+  'gray-third':     $gray-third,
+);
+
+$spacer: 1rem;
+$spacers: (
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  'awe-32':   $spacer * 2,
+  'awe-64':   $spacer * 4,
+  'awe-96':   $spacer * 6,
+  'awe-128':  $spacer * 8,
+  'awe-160':  $spacer * 10,
+);
+$enable-negative-margins: true;
+
+$font-sizes: (0, 18, 40, 56);
+
+$font-family-sans-serif: 'inter', sans-serif;

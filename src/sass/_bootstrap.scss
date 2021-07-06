@@ -1,12 +1,9 @@
-@import '../../node_modules/bootstrap/scss/functions';
+@import "../../node_modules/bootstrap/scss/functions";
 
-@import '../../node_modules/bootstrap/scss/variables';
+@import "variables";
 
-$awe-colors: (
-  'awe-black': #333333,
-);
-$theme-colors: map-merge($theme-colors, $awe-colors);
+@import "../../node_modules/bootstrap/scss/variables";
 
-@import '../../node_modules/bootstrap/scss/mixins';
+@import "../../node_modules/bootstrap/scss/mixins";
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import "../../node_modules/bootstrap/scss/bootstrap";
